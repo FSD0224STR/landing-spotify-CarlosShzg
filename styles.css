@@ -163,9 +163,6 @@ header .logo svg {
     height: 40px;
     width: 132px;
 }
-header nav {
-    
-}
 header nav ul {
     margin: 0;
     padding: 0;
@@ -373,6 +370,7 @@ section.main-banner .col-flex {
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    
     section.main-banner {
         padding-top: 60%;
         background-size: 100% auto; 
@@ -388,5 +386,11 @@ section.main-banner .col-flex {
     .tariffs-container .tariff-item {
         flex: 1 !important;
         width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) { 
+    
+    header nav {
+        display: none;
     }
 }
