@@ -375,7 +375,7 @@ section.main-banner .col-flex {
     }
     section.main-banner {
         padding-top: 60%;
-        background-size: 100% auto;
+        background-size: 100% auto; 
     }
     section.main-banner .col-flex {
         flex-basis: 100%;
