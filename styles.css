@@ -198,8 +198,7 @@ section.main-banner {
     background-image: url('images/main-banner-bg.png'), linear-gradient( 0deg, #121212 75%, #FFD2D7 115% );
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: min(60%, 800px), 100% 100%;
-    color: #fff;
+    background-size: 100% auto;
 }
 section.main-banner .container-flex {
     justify-content: flex-start;
@@ -370,6 +369,17 @@ section.main-banner .col-flex {
 
 @media only screen and (max-width: 1199px) { 
     
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    section.main-banner {
+        padding-top: 60%;
+        background-size: 100% auto;
+    }
+    section.main-banner .col-flex {
+        flex-basis: 100%;
+    }
     .tariffs-container {
         flex-direction: column;
         align-items: center;
